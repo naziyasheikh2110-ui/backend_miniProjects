@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   padding: 40px;
+}
+
+.title{
+    text-align: center;
+    color: maroon;
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.post {
+    text-align: center;
+    width: 300px;
+    border: 2px solid #ea8830;
+    box-shadow: 0px 0px 0px 0px #ea8830;
+    border-radius: 12px;
+    background-color: rgba(255, 228, 196, 0.762);
+    overflow-wrap: break-word;
+    justify-self: center;
+}
+
+.post:hover{
+     box-shadow: 4px 4px 10px 0px #ea8830;
+}
+
+.user {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.show{
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    line-height: 3;
+    text-decoration: none;
+    font-size: 1rem;
+;
+}
+
+.edit{
+     border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    line-height: 4;
+    text-decoration: none;
+ 
+}
+.new{
+   display: flex;
+   justify-self: center;
+    border: 2px solid green;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+
+}
+.delete{
+        border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+.submit{
+    display: block;
+    justify-self: center;
+    background-color: green;
+    font-size: 1rem;
+    border: 2px solid rgb(1, 85, 1);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.newUser{
+        width: 270px;
+    height: 45px;
+    border: 2px solid black;
+}
+.newContent{
+    border: 2px solid black;
+}
