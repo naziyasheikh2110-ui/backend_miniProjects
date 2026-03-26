@@ -1,0 +1,15 @@
+.infoBox{
+    text-align: center;
+    margin-top: 3rem;
+}
+.cityHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
